@@ -8,12 +8,12 @@ const LOGIN_URL = 'https://bdc.orange.int/login';
 const USERNAME = 'MyUsername';
 const PASSWORD = 'MyPassword';
 const DELAY_MS = 2000; // 2 seconds delay between requests
-const MAX_CONTENT_LENGTH = 5000;
+const MAX_CONTENT_LENGTH = 50000;
 const chromePath = 'C:\\Users\\M2656\\Desktop\\2025_S1\\chromedriver-win64\\chromedriver.exe';
 
 // Scraping limits
-const MAX_PAGES_FOR_LINKS = 15;
-const MAX_PAGES_FOR_CONTENT = 0; // 0 = scrape all
+const MAX_PAGES_FOR_LINKS = 1000;
+const MAX_PAGES_FOR_CONTENT = 1000; // 0 = scrape all
 
 // Output files
 const URLS_CSV = 'internal_platform_urls.csv';
